@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+
+}
+
+:root {
+    --barba: #293f5a;
+    --roxo_play: #c464f5;
+    --azul_navi_page: #88e3f8;
+    --roxo_leg: #3c1a80;
+    --tshirt: #b59ef0;
+
+
+}
+
+/* Classes do navbar */
+.navbar {
+
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 80px;
+    margin-left: 5%;
+
+}
+
+.nav-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #293f5a;
+    margin-left: 5px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 55%;
+    height: 80px;
+    margin-right: 5%;
+
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #293f5a;
+    padding: 12px 16px 12px 16px;
+    /* padding: 20px 16px; */
+}
+
+.nav-menu a:hover {
+    background-color: #c464f5;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+/* INICIO DO  Header */
+.header {
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headline {
+    width: 45%;
+    margin-left: 5%;
+    border-top-right-radius: 2px solid #c564f58f;
+}
+
+.img-headline {
+
+    width: 45%;
+    margin-right: 5%;
+    box-shadow: 2px 2px 4px #c564f58f;
+
+}
+
+.headline p {
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin: 20px 0;
+    color: #3c1a80;
+    text-align: center;
+}
+
+.headline h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #3c1a80;
+}
+
+/* 
+#voce {
+    border-bottom: 5px solid #c464f5;
+
+} */
+
+/* FIM DO HEADER */
+
+/* inicio section */
+
+section {
+    width: 90%;
+    height: 90vh;
+    margin: 5%;
+    padding: 5%;
+    display: inline-block;
+    justify-content: center;
+    /* border: 1px solid #b59ef0; */
+    border-radius: 5px;
+}
+
+
+section h2 {
+    color: #3c1a80;
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.servicos {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+
+
+}
+
+/* Estilo do card */
+
+.card {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #c464f5;
+    border-radius: 5px;
+}
+
+.card-img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-text {
+    color: #293f5a;
+    text-align: center;
+}
+
+.card-text h3 {
+    margin: 20px 0px;
+}
+
+.card-text p {
+    text-align: justify;
+}
+
+.card-text a {
+    margin: 30px;
+    color: #293f5a;
+}
+
+
+
+/* FIm da section */
+
+/* Inicio do footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid #3c1a80;
+    margin-top: 10vh;
+    padding: 20px;
+    color: #293f5a;
+
+}
